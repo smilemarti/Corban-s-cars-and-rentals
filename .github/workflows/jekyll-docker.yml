@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corban's Cars & Party Rentals - Bell County Area</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #ffb347;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        h2 {
+            font-size: 2em;
+            color: #ff6f61;
+            border-bottom: 3px solid #ffb347;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        .services .service-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .services .service-item h3 {
+            margin-top: 0;
+            color: #ff6f61;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact-form label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        .contact-form button {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #ffb347;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            nav a {
+                margin: 0 10px;
+                font-size: 0.9em;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+ 
+    <header>
+        <h1>Corban's Cars & Party Rentals</h1>
+        <p>Bringing Joy and Fun to Your Toddler's Special Day!</p>
+    </header>
+ 
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#rules">Rules</a>
+        <a href="#contact">Contact</a>
+    </nav>
+ 
+    <div class="container">
+ 
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At <strong>Corban's Cars & Party Rentals</strong>, we specialize in creating unforgettable experiences for your little ones. Serving the Bell County area, we offer a wide range of rental services including toddler mini bumper cars with arenas, tables and chairs, customized piñatas, and bounce houses. Whether it's an indoor or outdoor event, our goal is to make your party planning effortless and your event memorable.</p>
+        </section>
+ 
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+ 
+            <div class="service-item">
+                <h3>Bumper Car Rentals</h3>
+                <p>Our exciting toddler mini bumper cars come with a safe and fun arena setup.</p>
+                <ul>
+                    <li><strong>Indoor Rental:</strong> $400.00 for 5 hours (includes 4 cars and arena)</li>
+                    <li><strong>Outdoor Rental:</strong> $500.00 for 5 hours (includes 4 cars and arena)</li>
+                    <li><strong>Additional Hours:</strong> $50.00 per hour</li>
+                </ul>
+            </div>
+ 
+            <div class="service-item">
+                <h3>Table & Chair Rentals</h3>
+                <p>We provide sturdy and elegant tables and chairs to accommodate your guests comfortably.</p>
+                <ul>
+                    <li><strong>Table & Chair Bundle:</strong> $16.00 (includes one 6ft table and 6 black chairs)</li>
+                    <li><strong>Individual Chair:</strong> $2.00 each</li>
+                    <li><strong>Individual Table:</strong> $6.00 each</li>
+                </ul>
+            </div>
+ 
+            <div class="service-item">
+                <h3>Customized Piñatas</h3>
+                <p>Add a personalized touch to your party with our custom-made piñatas in various sizes.</p>
+                <ul>
+                    <li><strong>Small (up to 2ft):</strong> $35.00</li>
+                    <li><strong>Medium (up to 3ft):</strong> $50.00</li>
+                    <li><strong>Large (up to 4ft):</strong> $70.00</li>
+                    <li><strong>Candy Filling:</strong> Additional $16.00</li>
+                    <li><strong>Matching Hitting Stick:</strong> Additional $8.00</li>
+                </ul>
+                <p><em>Note: Sizes and prices may vary depending on specific design requests.</em></p>
+            </div>
+ 
+            <div class="service-item">
+                <h3>Bounce House Rentals</h3>
+                <p>Our vibrant and safe bounce houses are perfect for adding extra fun to any event.</p>
+                <p><strong>Pricing and availability:</strong> Please contact us for more details.</p>
+            </div>
+ 
+        </section>
+ 
+        <section id="pricing">
+            <h2>Pricing Summary</h2>
+            <p>We offer competitive pricing to fit your budget and make your event spectacular. For detailed pricing information, please refer to the services section above or get in touch with us directly.</p>
+        </section>
+ 
+        <section id="rules">
+            <h2>Rental Rules & Guidelines</h2>
+            <ol>
+                <li>A non-refundable deposit of <strong>50%</strong> is required upon booking to secure your reservation.</li>
+                <li>The remaining balance will be charged to the card on file prior to the event date.</li>
+                <li>Cancellations must be made at least 72 hours before the event to avoid additional charges.</li>
+                <li>All equipment must be used responsibly and returned in the same condition as received. Damages or losses will incur additional fees.</li>
+                <li>For outdoor setups, please ensure a flat and clean surface area is available for safe installation.</li>
+                <li>Adult supervision is required at all times during the use of our equipment.</li>
+                <li>We reserve the right to refuse service under unsafe or unsuitable conditions.</li>
+            </ol>
+        </section>
+ 
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Ready to book or have more questions? We'd love to hear from you!</p>
+            <p><strong>Contact Person:</strong> Juana Torres</p>
+            <p><strong>Phone:</strong> <a href="tel:4074171531">(407) 417-1531</a></p>
+            <p>Or fill out the contact form below, and we'll get back to you as soon as possible.</p>
+ 
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+ 
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="phone">Your Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+ 
+                <label for="service">Service Interested In:</label>
+                <select id="service" name="service" required>
+                    <option value="">--Please choose an option--</option>
+                    <option value="bumper_cars">Bumper Car Rentals</option>
+                    <option value="tables_chairs">Table & Chair Rentals</option>
+                    <option value="pinatas">Customized Piñatas</option>
+                    <option value="bounce_houses">Bounce House Rentals</option>
+                    <option value="multiple">Multiple Services</option>
+                </select>
+ 
+                <label for="date">Event Date:</label>
+                <input type="date" id="date" name="date" required>
+ 
+                <label for="message">Additional Details:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Let us know any additional details or questions you have..."></textarea>
+ 
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+ 
+    </div>
+ 
+    <footer>
+        &copy; 2023 Corban's Cars & Party Rentals. All Rights Reserved.
+    </footer>
+ 
+</body>
+</html>
